@@ -3,12 +3,7 @@ import tkinter as tk
 from tkinter import Label, Entry, Button, messagebox, Checkbutton, BooleanVar
 
 # API credentials from original code
-consumer_key = 'FVZi4LcjZXKGSftMfB6MtAvhk'
-consumer_secret = 'oAgqvDVF57qd9lL6Ykm6XVx5FMwHrYmMsyuSRg6NgY4WBjNp0u'
-access_token = '1896406739827703810-zenynReeq7N5bsjqKh52BQLH5RYyEG'
-access_token_secret = 'bkZPEaQjn1lS7wO3hmz42b9k7sSWJJ9o2CCQ6Oa4eElue'
-client_ID = 'aG5XLUlQRzVqLXJiRVFJdjBNQ0k6MTpjaQ'
-client_secret = 'ZGMdiwmYsntXKXP8EPhGGcMWXxKK2zD9jDWqp7gW9spL-qMtm_'
+
 
 class TwitterBot:
     def __init__(self, root):
